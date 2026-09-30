@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My contributions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(135deg, #f0f4ff 0%, #e8f5e9 50%, #fff3e0 100%);
+      min-height: 100vh;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #6366f1, #ec4899, #f59e0b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border-left: 6px solid;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+
+    .card.weblate { border-color: #2ecc71; }
+    .card.crowdin { border-color: #3498db; }
+    .card.futo { border-color: #9b59b6; }
+    .card.glyph { border-color: #e67e22; }
+    .card.jeanluc { border-color: #e74c3c; }
+
+    .emoji {
+      font-size: 2.2rem;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    .card-content h2 {
+      font-size: 1.25rem;
+      margin-bottom: 4px;
+    }
+
+    .card-content p {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 8px;
+    }
+
+    .card a {
+      color: #6366f1;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌍 My contributions</h1>
+      <p>Apps and projects I have contributed</p>
+    </header>
+
+    <div class="grid">
+
+      <div class="card weblate">
+        <div class="emoji">🌐</div>
+        <div class="card-content">
+          <h2>Weblate</h2>
+          <p>More than 10 apps translated</p>
+          <p>🏞️ Lavender Photos</p>
+          <p>🎙️ Audile</p>
+          <p>🌍 GeoShare</p>
+          <p>🤖 Dicio</p>
+          <p>💳 FossWallet</p>
+          <p>🔢 OpenCalc</p>
+          <p>🎵 Chocola</p>
+          <p>🔢 Vanilla</p>
+          <p>🔢 CalcYou</p>
+          <p>🕔 ClockYou</p>
+          <a href="https://hosted.weblate.org/user/BenutzerX/" target="_blank">View profile →</a>
+        </div>
+      </div>
+
+      <div class="card crowdin">
+        <div class="emoji">🏞️</div>
+        <div class="card-content">
+          <h2>Gallery Compose</h2>
+          <p>ReFra Gallery app</p>
+          <a href="https://crowdin.com/project/gallery-compose" target="_blank">View project →</a>
+        </div>
+      </div>
+
+      <div class="card futo">
+        <div class="emoji">⌨️</div>
+        <div class="card-content">
+          <h2>FUTO Keyboard</h2>
+          <p>Keyboard</p>
+          <a href="https://i18n-keyboard.futo.org/it/" target="_blank">Vedi contributions →</a>
+        </div>
+      </div>
+
+      <div class="card glyph">
+        <div class="emoji">👾</div>
+        <div class="card-content">
+          <h2>Glyph Museum</h2>
+          <p>Nothing smartphone matrix LED controller/p>
+          <a href="https://translate.glyphmuseum.com/" target="_blank">Apri sito →</a>
+        </div>
+      </div>
+
+      <div class="card jeanluc">
+        <div class="emoji">🗓️</div>
+        <div class="card-content">
+          <h2>Agendula & Calendula</h2>
+          <p>Jeanluc Makiola’s projects on Weblate</p>
+          <a href="https://weblate.dev.jeanlucmakiola.de/" target="_blank">View contributes →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      Made with ❤️ for open source
+    </footer>
+  </div>
+</body>
+</html>
